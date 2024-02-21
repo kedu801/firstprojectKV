@@ -4,11 +4,4 @@ function toggleMode() {
 
   const image = document.querySelector("#profile img")
 
-  if (html.classList.contains("light")) {
-
-    image.setAttribute("src", "./assets/avatar.lightmeu.png")
-    
-  } else {
-    image.setAttribute("src", "./assets/aavatar.png")
-  }
 }
